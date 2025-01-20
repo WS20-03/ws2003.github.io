@@ -1,0 +1,578 @@
+
+*/*Entire html*/
+{
+	margin:0;
+	padding:0;
+}
+
+@media print
+{
+	body
+	{
+		color:red;
+		font-size:12pt;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		background-image: linear-gradient(49deg, black 0%,red 20%,black 30%, red 30%, black 50%, red 80%, black 100%);
+	}
+	
+	h1,h2
+	{
+		text-decoration:none;
+		font-weight:bold;
+	}
+
+}
+
+html
+{
+	max-width:2000em;
+	max-height:768em;
+	background-image: linear-gradient(49deg, black 0%,red 20%,black 30%, red 30%, black 50%, red 80%, black 100%);
+
+}
+
+header h2
+{
+	text-align:left;
+	text-shadow:2px 1px 1px red;
+	padding:30px;
+	color:black;
+	position:relative;
+	text-decoration:none;
+}
+
+header
+{
+	height:100px;
+	background-color:white;	
+	padding-top:0;
+}
+
+header img
+{
+	float:left;
+	margin-left:15px;
+}
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	border:3px solid black;
+	background-repeat:no-repeat;
+	width:1000px;
+	margin:10px auto;
+	color:black;
+margin-top:0;
+	
+}
+
+
+main
+{
+	box-shadow:3px 3px 4px 4px black;
+	position:relative;
+	padding:25px;
+	margin:0 auto;
+	background-color:silver;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	max-height:100%;
+}
+
+main p
+{
+	font-size:13px;
+}
+
+footer
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:30px;
+
+}
+/*End of html*/
+
+
+/*navigation menu*/
+
+nav ul
+{
+    list-style: none;
+    padding: 1em 0;
+   position:relative;
+   text-align: center;
+   background-color:black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+
+}
+
+nav ul li
+{
+	
+    display: inline-block;
+	position:relative;
+    padding: 0 0.9em;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+nav ul li a
+{
+display:block;
+padding:15px 25px;
+text-decoration:none;
+text-align:center;
+font-size:15px;
+    font-weight: bold;
+   color: silver;
+}
+
+nav ul li ul.dropdown_1 li
+{
+	display:block;
+	
+}
+
+nav ul li ul.dropdown_1
+{
+	margin-top:0;
+	width:100%;
+	background-color:black;
+	position:absolute;
+	z-index:999;
+	display:none;
+}
+
+ul li a:hover
+{
+	color:green;
+
+}
+
+ul li:hover ul.dropdown_1
+{
+display:block;	
+}
+
+nav a.current
+{
+	color:red;
+	
+}
+
+
+nav#nav_menu_1
+{
+	
+	background-color:red;
+}
+
+
+nav#nav_menu_1 a:hover
+{
+	color:teal;
+}
+
+
+/*End of navigation*/
+
+
+
+/*Events.html CSS*/
+aside img
+{
+	position:relative;	
+	
+}
+
+/*end of events */
+
+
+/*Home page*/
+aside#motto
+{
+	margin-left:20em;
+	margin-top:auto;
+	position:relative;
+	bottom:15em;
+	background-color:white;
+	padding:15px;
+}
+
+section#Announcements
+{
+	position:relative;
+	bottom:180px;
+}
+
+
+
+div#Unity
+{
+	position:relative;
+	bottom:100px;
+	left:330px;
+	
+}
+
+div#Unity p
+{
+	position:relative;
+	left:150px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+
+/*End of home page*/
+
+
+/*Calendar - Term Calendar*/
+
+main#TermCalendar p
+{
+	font-weight:bold;
+}
+
+div#TermDates table
+{
+	border:2px black solid;
+	border-collapse:collapse;
+
+}
+
+div#TermDates th,td
+{
+	 border: 1px solid black;
+     padding: .2em 1em .2em .5em;
+}
+
+div#TermDates tbody tr:nth-child(odd)
+{
+	background-color:white;
+}
+
+div#TermDates thead tr th
+{
+	padding:10px;
+}
+
+div#TermDates tbody tr td
+{
+	padding:8px;
+}
+
+
+div#Holidays table
+{
+	border:2px solid black;
+	border-collapse:collapse;
+	margin:18px;
+}
+
+div#Holidays thead
+{
+	background-color:white;
+	
+}
+
+div#Holidays thead tr th
+{
+	padding:15px;
+	
+}
+
+div#Holidays tbody tr:nth-child(even)
+{
+	background-color:white;
+}
+/*End of term Calendar*/
+
+
+/*Assembly duty*/
+div#Parents p
+{
+	font-weight:bold;
+}
+
+div#Parents table
+{
+	border:2px solid black;
+	border-collapse:collapse;
+	margin:20px;
+}
+
+div#Parents th,td
+{
+	border:1px solid black;
+	padding: 10px;
+}
+
+div#Parents tbody tr:nth-child(odd)
+{
+	background-color:white;
+}
+/*end of parent meetings*/
+
+
+
+
+/*Contact Us*/
+form
+{
+	border:1px black solid;
+	padding:20px;
+	margin:10px;
+}
+
+
+label
+{
+	padding-bottom:0;
+	margin:10px;
+	text-align:right;
+	font-weight:bold;
+}
+
+input
+{
+	margin-left:20px;
+	margin-bottom:10px;
+
+}
+
+label[id="grade"]
+{
+	margin-bottom:15px;
+}
+
+input[type="submit"],input[type="reset"]
+{
+	margin:20px;
+	width:100px;
+	height:30px;
+	border-radius:10px;
+}
+
+select[id="grade"] 
+{
+	width:9em;
+}
+
+input[type="submit"]
+{
+	background-color:black;
+	color:white;
+	font-style:italic;
+	
+}
+
+fieldset
+{
+	margin-bottom:15px;
+}
+
+main#ContactUs h1
+{
+	margin:10px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1877f2; /* Facebook Blue */
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: 2px solid #1877f2;
+    transition: background-color 0.3s ease, color 0.3s ease;
+	margin:9px;
+}
+
+.social-link i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 24px;
+}	
+
+.social-link:hover {
+    background-color: #1877f2;
+    color: white;
+}
+	
+/*end page*/
+
+
+/*Rules  and Regulations*/
+
+
+/*section#Vision p, ul
+{
+	font-size:15px;
+	margin:18px;
+}
+
+section#Vision
+{
+	margin:15px;
+	margin-left:450px;
+	position:absolute;
+	left:220px;
+	background-color:white;
+	
+}
+
+section#RulesRegulations
+{
+	position:relative;
+}
+
+section#RulesRegulations ol li
+{
+  margin-top:8px;
+  margin-left:10px;
+
+}
+
+main section#RulesRegulations h1,h2
+{
+  margin:19px;
+  text-decoration:none;
+
+}
+
+div#Zero img
+{
+	position:relative;
+	left:150px;
+}*/
+
+
+
+/*end of rules and regulations*/
+
+/*Staff html*/
+
+div#StaffDetails h3 
+{
+	font-weight: bold;
+	text-align: center;
+}
+div#Staff
+{
+	text-align:center;
+	margin:10px;
+}
+
+div#StaffDetails table
+{
+	
+	border-collapse:collapse;
+	border:2px solid black;
+	margin:auto;
+	font-style:italic;
+}
+
+div#StaffDetails table caption
+{
+	margin:15px;
+}
+
+div#StaffDetails th,td
+{
+	margin:20em;
+	padding:1em;
+	border:1px solid black;
+}
+
+div#StaffDetails th
+{
+	background-color:white;
+}
+
+div#StaffDetails tbody tr:nth-child(even)
+{
+	background-color:white;
+}
+
+
+/*More html*/
+section#location
+{
+	text-align:center;
+}
+
+section#tribute p
+{
+	font-weight:bold;
+}
+/*end of more.html*/
+
+/*Daily Routine*/
+
+table#FoundationIntermediate
+{
+	border-collapse:collapse;
+	border:2px solid black;
+	margin:auto;
+	font-style:italic;
+
+}
+
+table#FoundationIntermediate thead tr th
+{
+	border: 2px solid black;
+	margin: 10px;
+	padding: 12px;
+
+}
+
+table#FoundationIntermediate thead tr
+{
+	background-color: white;
+}
+
+table#FoundationIntermediate tr:nth-child(even)
+{
+	background-color: white;
+}
+
+table#Uniform
+{
+	border-collapse:collapse;
+	border:2px solid black;
+	margin:auto;
+	font-style:italic;
+
+}
+
+table#Uniform thead tr th
+{
+	border: 2px solid black;
+	margin: 10px;
+	padding: 12px;
+
+}
+
+table#Uniform tr:nth-child(even)
+{
+	background-color: white;
+}
+
+table#Uniform thead tr
+{
+	background-color: white;
+}
+
+/*end*/
